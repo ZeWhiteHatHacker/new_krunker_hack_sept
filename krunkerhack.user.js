@@ -4,6 +4,8 @@
 // @version      1.2.3
 // @author       BayMax
 // @namespace    BayMax
+// @updateURL    https://github.com/ZeWhiteHatHacker/new_krunker_hack_sept/raw/master/krunkerhack.user.js
+// @downloadURL  https://github.com/ZeWhiteHatHacker/new_krunker_hack_sept/raw/master/krunkerhack.user.js
 // @match        *://krunker.io/*
 // @grant        none
 // @run-at       document-start
