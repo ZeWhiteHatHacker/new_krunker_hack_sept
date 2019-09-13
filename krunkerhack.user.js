@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Krunker.io Hacks for SEPTEMBER| Actually working
+// @name         Krunker.io Hacks for SEPTEMBER | Actually working
 // @description  Tutorial out @ https://cutit.org/GoBayMax
 // @version      1.2.3
 // @author       BayMax
