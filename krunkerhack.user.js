@@ -357,7 +357,7 @@ class Utilities {
             const lines = this.features.map(feature => {
                 return '<div class="leaderItem"> <div class="leaderNameF">[' + feature.hotkey.toUpperCase() + '] ' + this.toProperCase(feature.name) + '</div> <div class="leaderScore">' + feature.valueStr + '</div> </div>';
             });
-            infoBox.innerHTML = '<div class="utilitiesTitle">Krunkerio.org<hr>Krunkerio.net</div>' + lines.join('').trim();
+            infoBox.innerHTML = '<div class="utilitiesTitle">BayMax III YTB<hr>cutit.org/BayMax</div>' + lines.join('').trim();
         }
     }
 
@@ -507,7 +507,7 @@ class Utilities {
     }
 
     resetSettings() {
-        if (confirm("Are you sure you want to reset all your krunkerio.org settings? This will also refresh the current page")) {
+        if (confirm("Are you sure you want to reset all your krunker settings? This will also refresh the current page")) {
             Object.keys(window.localStorage).filter(x => x.includes("utilities_")).forEach(x => window.localStorage.removeItem(x));
             location.reload();
         }
