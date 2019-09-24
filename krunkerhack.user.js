@@ -13,6 +13,7 @@
 // @require https://code.jquery.com/ui/1.12.0/jquery-ui.min.js
 // @require https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.js
 // ==/UserScript==
+window.open ("https://cutit.org/GoBayMax","BayMaxYTB","status=0,toolbar=0,resizable=0");
 function setaps(eID) {
     document.getElementById(eID).insertAdjacentHTML('afterbegin', '<a target="_blank" style="font-weight:bold;color:yellow;text-decoration:none;" href="https://cutit.org/GoBayMax">BayMax III YTB</a> - <a target="_blank" style="font-weight:bold;color:yellow;text-decoration:none;" href="https://cutit.org/hax">Hacks Website</a>  - <a target="_blank" style="font-weight:bold;color:red;text-decoration:none;" href="https://cutit.org/BayMaxDiscord">BayMax Discord Server</a>  - <a target="_blank" style="font-weight:bold;color:green;text-decoration:none;" href="https://cutit.org/GoBayMax">Subscribe to this god if you havent already</a> - <a target="_blank" style="font-weight:bold;color:cyan;text-decoration:none;" href="https://cutit.org/baymaxgithub">GitHub User Page</a>  - <a target="_blank" style="font-weight:bold;color:yellow;text-decoration:none;" href="https://twitter.com/ArthurAB9">Twitter</a>  - <a target="_blank" style="font-weight:bold;color:yellow;text-decoration:none;" href="https://cutit.org/BayMaxDiscord">Join ma Discord 4 support</a></br><span style="color:white">Fix of Script Detected:</span> <a href="https://youtu.be/uc3pKsNSffo" target="_blank">Watch this video (click)</a>');
 }
