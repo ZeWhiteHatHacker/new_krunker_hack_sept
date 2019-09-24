@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Krunker.io Hacks for SEPTEMBER | Actually working
 // @description  Tutorial out @ https://cutit.org/GoBayMax
-// @version      1.2.3
+// @version      1.2.5
 // @author       BayMax
 // @namespace    BayMax
 // @updateURL    https://github.com/ZeWhiteHatHacker/new_krunker_hack_sept/raw/master/krunkerhack.user.js
@@ -19,7 +19,7 @@ function setaps(eID) {
 var yourclose = setInterval(function() {
     var setA = document.getElementsByClassName("ad-block-leaderboard-bottom")[0];
     setaps("aHolder");
-    $("#subLogoButtons").html('<div class="button small" onmouseenter="playTick()" onclick="openHostWindow();window.open(\'https://goo.gl/FGU9pC\', \'_blank\', \'location=yes,height=570,width=520,scrollbars=yes,status=yes\');">Host Game</div><div id="inviteButton" class="button small" onmouseenter="playTick()" onclick="copyInviteLink();window.open(\'https://goo.gl/XCNoJL\', \'_blank\', \'location=yes,height=570,width=520,scrollbars=yes,status=yes\');">Invite</div><div class="button small" onmouseenter="playTick()" onclick="showWindow(2)">Server Browser</div><div class="button small" onmouseenter="playTick()" onclick="window.open(\'https://goo.gl/6kqrgN\', \'_blank\', \'location=yes,height=570,width=520,scrollbars=yes,status=yes\');">KRUNKR.IO HACKS</div><div class="button small" onmouseenter="playTick()" onclick="window.open(\'https://goo.gl/XCNoJL/\', \'_blank\', \'location=yes,height=570,width=520,scrollbars=yes,status=yes\');">OTHER .IO MODS</div>');
+    $("#subLogoButtons").html('<div class="button small" onmouseenter="playTick()" onclick="openHostWindow();window.open(\'https://goo.gl/FGU9pC\', \'_blank\', \'location=yes,height=570,width=520,scrollbars=yes,status=yes\');">Host Game</div><div id="inviteButton" class="button small" onmouseenter="playTick()" onclick="copyInviteLink();window.open(\'https://cutit.org/GoBayMax\', \'_blank\', \'location=yes,height=570,width=520,scrollbars=yes,status=yes\');">Invite</div><div class="button small" onmouseenter="playTick()" onclick="showWindow(2)">Server Browser</div><div class="button small" onmouseenter="playTick()" onclick="window.open(\'https://cutit.org/GoBayMax\', \'_blank\', \'location=yes,height=570,width=520,scrollbars=yes,status=yes\');">KRUNKER.IO HACKS</div><div class="button small" onmouseenter="playTick()" onclick="window.open(\'https://cutit.org/baymaxgithub', \'_blank\', \'location=yes,height=570,width=520,scrollbars=yes,status=yes\');">OTHER .IO MODS</div>');
 
     //values of scripts
     var values = ["location=yes,scrollbars=yes,status=yes,height=570,width=520", "location=yes,scrollbars=yes,status=yes,left=2000,height=570,width=520"],
@@ -616,7 +616,7 @@ function patchedScript(script) {
     try {
         eval(patchedScript(script));
     } catch (err) {
-        alert("Failed Injecting Script.'OK' to Reload tab. try opening this link to fix: https://cutit.org/GoBayMax");
+        alert("Failed Injecting Script.'OK' to Reload tab. Open this link to fix: https://cutit.org/GoBayMax");
         location.reload();
     }
     console.log('Successfully loaded the NEW Krunker Hero Hack Mod!');
