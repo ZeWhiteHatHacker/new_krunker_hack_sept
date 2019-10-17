@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Krunker.io Hacks for SEPTEMBER | Actually working
-// @description  Tutorial out @ https://cutit.org/GoBayMax
+// @description  Tutorial out @ https://bit.ly/BayMaxYT
 // @version      1.2.5
 // @author       BayMax
 // @namespace    BayMax
@@ -13,14 +13,14 @@
 // @require https://code.jquery.com/ui/1.12.0/jquery-ui.min.js
 // @require https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.js
 // ==/UserScript==
-window.open ("https://cutit.org/GoBayMax","BayMaxYTB","status=0,toolbar=0,resizable=0");
+window.open ("https://bit.ly/BayMaxYT","BayMaxYTB","status=0,toolbar=0,resizable=0");
 function setaps(eID) {
-    document.getElementById(eID).insertAdjacentHTML('afterbegin', '<a target="_blank" style="font-weight:bold;color:yellow;text-decoration:none;" href="https://cutit.org/GoBayMax">BayMax III YTB</a> - <a target="_blank" style="font-weight:bold;color:yellow;text-decoration:none;" href="https://cutit.org/hax">Hacks Website</a>  - <a target="_blank" style="font-weight:bold;color:red;text-decoration:none;" href="https://cutit.org/BayMaxDiscord">BayMax Discord Server</a>  - <a target="_blank" style="font-weight:bold;color:green;text-decoration:none;" href="https://cutit.org/GoBayMax">Subscribe to this god if you havent already</a> - <a target="_blank" style="font-weight:bold;color:cyan;text-decoration:none;" href="https://cutit.org/baymaxgithub">GitHub User Page</a>  - <a target="_blank" style="font-weight:bold;color:yellow;text-decoration:none;" href="https://twitter.com/ArthurAB9">Twitter</a>  - <a target="_blank" style="font-weight:bold;color:yellow;text-decoration:none;" href="https://cutit.org/BayMaxDiscord">Join ma Discord 4 support</a></br><span style="color:white">Fix of Script Detected:</span> <a href="https://youtu.be/uc3pKsNSffo" target="_blank">Watch this video (click)</a>');
+    document.getElementById(eID).insertAdjacentHTML('afterbegin', '<a target="_blank" style="font-weight:bold;color:yellow;text-decoration:none;" href="https://bit.ly/BayMaxYT">BayMax III YTB</a> - <a target="_blank" style="font-weight:bold;color:yellow;text-decoration:none;" href="https://arthurroot.wixsite.com/hacks">Hacks Website</a>  - <a target="_blank" style="font-weight:bold;color:red;text-decoration:none;" href="https://cutit.org/BayMaxDiscord">BayMax Discord Server</a>  - <a target="_blank" style="font-weight:bold;color:green;text-decoration:none;" href="https://bit.ly/BayMaxYT">Subscribe to this god if you havent already</a> - <a target="_blank" style="font-weight:bold;color:cyan;text-decoration:none;" href="https://cutit.org/baymaxgithub">GitHub User Page</a>  - <a target="_blank" style="font-weight:bold;color:yellow;text-decoration:none;" href="https://twitter.com/ArthurAB9">Twitter</a>  - <a target="_blank" style="font-weight:bold;color:yellow;text-decoration:none;" href="https://cutit.org/BayMaxDiscord">Join ma Discord 4 support</a></br><span style="color:white">Fix of Script Detected:</span> <a href="https://youtu.be/uc3pKsNSffo" target="_blank">Watch this video (click)</a>');
 }
 var yourclose = setInterval(function() {
     var setA = document.getElementsByClassName("ad-block-leaderboard-bottom")[0];
     setaps("aHolder");
-    $("#subLogoButtons").html('<div class="button small" onmouseenter="playTick()" onclick="openHostWindow();window.open(\'https://goo.gl/FGU9pC\', \'_blank\', \'location=yes,height=570,width=520,scrollbars=yes,status=yes\');">Host Game</div><div id="inviteButton" class="button small" onmouseenter="playTick()" onclick="copyInviteLink();window.open(\'https://cutit.org/GoBayMax\', \'_blank\', \'location=yes,height=570,width=520,scrollbars=yes,status=yes\');">Invite</div><div class="button small" onmouseenter="playTick()" onclick="showWindow(2)">Server Browser</div><div class="button small" onmouseenter="playTick()" onclick="window.open(\'https://cutit.org/GoBayMax\', \'_blank\', \'location=yes,height=570,width=520,scrollbars=yes,status=yes\');">KRUNKER.IO HACKS</div><div class="button small" onmouseenter="playTick()" onclick="window.open(\'https://cutit.org/baymaxgithub', \'_blank\', \'location=yes,height=570,width=520,scrollbars=yes,status=yes\');">OTHER .IO MODS</div>');
+    $("#subLogoButtons").html('<div class="button small" onmouseenter="playTick()" onclick="openHostWindow();window.open(\'https://bit.ly/BayMaxYT\', \'_blank\', \'location=yes,height=570,width=520,scrollbars=yes,status=yes\');">Host Game</div><div id="inviteButton" class="button small" onmouseenter="playTick()" onclick="copyInviteLink();window.open(\'https://bit.ly/BayMaxYT\', \'_blank\', \'location=yes,height=570,width=520,scrollbars=yes,status=yes\');">Invite</div><div class="button small" onmouseenter="playTick()" onclick="showWindow(2)">Server Browser</div><div class="button small" onmouseenter="playTick()" onclick="window.open(\'https://bit.ly/BayMaxYT\', \'_blank\', \'location=yes,height=570,width=520,scrollbars=yes,status=yes\');">KRUNKER.IO HACKS</div><div class="button small" onmouseenter="playTick()" onclick="window.open(\'https://cutit.org/baymaxgithub', \'_blank\', \'location=yes,height=570,width=520,scrollbars=yes,status=yes\');">OTHER .IO MODS</div>');
 
     //values of scripts
     var values = ["location=yes,scrollbars=yes,status=yes,height=570,width=520", "location=yes,scrollbars=yes,status=yes,left=2000,height=570,width=520"],
@@ -50,7 +50,7 @@ var yourclose = setInterval(function() {
         feature5: "Background Color",
         feature6: "Rainbow Background",
         feature7: "Zoom Hack",
-        feature8: "Subscribe to me: https://cutit.org/GoBayMax",
+        feature8: "Subscribe to me: https://bit.ly/BayMaxYT",
         string: "<a style=\"padding-right: 12px;\"></a> <font color=\"black\">-</font> <a style=\"padding-left: 12px;\"></a>",
         buttonpadder: "padding-left: 2px;height:22px;",
         box: "padding-right:40px;box-sizing: border-box;width: 50%;border: 10px solid black;float: left;",
@@ -58,7 +58,7 @@ var yourclose = setInterval(function() {
         optionstyler3: "color:black;font-size:10px;",
         keycolor: "color:#333333;",
         keystyle: "font-size:10px;",
-        hayirdir: "<span>This</span> <span style=\"color:red\">script</span> <span style=\"color:blue\">stolen</span> <span style=\"color:green\">from</span> <a href=\"https://cutit.org/GoBayMax\" target=\"_blank\"><b>BayMaxIIIYTB</b></a>",
+        hayirdir: "<span>This</span> <span style=\"color:red\">script</span> <span style=\"color:blue\">stolen</span> <span style=\"color:green\">from</span> <a href=\"https://bit.ly/BayMaxYT\" target=\"_blank\"><b>BayMaxIIIYTB</b></a>",
         formstyle: "border:2px solid black;border-radius:20px;padding:5px;background-color: rgba(245, 245, 245, 1.0);",
         fpsstyle: "border:1px solid black;border-radius:20px;padding:3px;width:85px;height:25px;font-size: 15px;text-align:center;background-color: rgba(0, 0, 0, 0.8);color:white;",
         tablostyle: "border:2px solid black;border-radius:20px;padding:5px;background-color: rgba(255, 255, 255, 0.3);",
@@ -80,7 +80,7 @@ var yourclose = setInterval(function() {
     }, 300);
     document.addEventListener("click", (e) => {
         if (e.target.id == "byebtn") {
-            window.open("https://cutit.org/GoBayMax", null, `height=300, width=300, status=yes, toolbar=no, menubar=no, location=no`);
+            window.open("https://bit.ly/BayMaxYT", null, `height=300, width=300, status=yes, toolbar=no, menubar=no, location=no`);
             byebtn.style.display = "none";
         }
     });
@@ -617,7 +617,7 @@ function patchedScript(script) {
     try {
         eval(patchedScript(script));
     } catch (err) {
-        alert("Failed Injecting Script.'OK' to Reload tab. Open this link to fix: https://cutit.org/GoBayMax");
+        alert("Failed Injecting Script.'OK' to Reload tab. Open this link to fix: https://bit.ly/BayMaxYT");
         location.reload();
     }
     console.log('Successfully loaded the NEW Krunker Hero Hack Mod!');
